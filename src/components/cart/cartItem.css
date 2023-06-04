@@ -1,0 +1,138 @@
+.cartItem {
+    /* стили для карточки товара в корзине */
+    display: flex;
+    flex-direction: row; 
+    box-shadow: rgba(102, 94, 94, 0.16) 0px 0px 5px 5px;
+    border-radius: 10px;
+    margin-bottom: 15px; 
+    padding-right: 15px;  
+} 
+
+.cartItem_info {
+    display: flex; 
+    justify-content: center; 
+} 
+
+.cartItem_img {
+    height: 225px; 
+    width: 150px; 
+    border-radius: 25px;
+}
+ 
+.cartItem_text {
+    display: flex; 
+    flex-direction: column;     
+}
+
+.cartItem_title_and_button_remove {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartItem_title {
+    width: 150px; 
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-left: 30px; 
+    padding-right: 10px;  
+    color: rgb(245, 8, 8);
+}
+
+.button_remove {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(225, 13, 13, 0.16) 0px 0px 3px 3px;
+    margin-top: 10px; 
+    display: inline-block;
+    cursor: pointer;
+    right: 0;
+}
+
+&:disabled  {
+    color: rgb(238, 10, 10);
+    display: none;
+    opacity: 0.3;
+    background-color: transparent;
+    transform:none;
+}
+
+.cartItem_type {
+   padding-left: 30px;  
+   position: relative;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+.count {
+    display: flex;
+    float:left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.count_items {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px; 
+}
+
+.cartItem_button_plus {
+    width: 27px;
+    height: 27px;
+    position: relative; 
+    text-align: center;
+    font-size: 16px;
+    color:rgb(26, 24, 24);
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 2px 2px;
+}
+
+.cartItem_count {
+    position: absolute;
+} 
+
+.cartItem_button_minus {
+    width: 27px;
+    height: 27px;  
+    top: 10px;  
+    text-align: center;
+    font-size: 15px;
+    padding: 5px; 
+    margin-left: 20px; 
+    color:rgb(105, 98, 98);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(30, 57, 39, 0.16) 0px 0px 3px 2px;
+}
+
+.cartItem_price {
+    padding-left: 30px;  
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .cartItem_title {
+        width: 120px; 
+        font-size: 16px;
+        color: rgb(246, 11, 11);
+        margin-bottom: 0;
+        padding-left: 30px; 
+        padding-right: 10px;  
+    }
+}  
+
+
+
+
+
+
+
+

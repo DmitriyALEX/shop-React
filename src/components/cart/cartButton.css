@@ -1,0 +1,68 @@
+.cart_link {
+  display: flex;
+  color: rgb(255, 1, 1);
+  font-size: 20px;
+}
+
+.summery_items_cart_price {
+  display: flex;
+  align-items: center;
+}
+
+.cart_icon {
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px 0 3px;
+}
+.separator {
+  margin: 0 5px 0 10px;
+}  
+
+.summery_price {
+  padding-right: 15px;
+}
+
+.hryvnia_icon {
+  width: 15px;
+  height: 15px;
+  margin: 0px 5px 0 3px;
+}
+
+@media (max-width: 768px) { 
+  .summery {
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(244, 242, 242);
+    box-shadow: rgb(147, 142, 142, 0.3) 0px 0px 5px 5px;
+  } 
+  .cart_link {
+    display: flex; 
+    flex-direction: row; 
+  }   
+  .cart_icon {
+    width: 15px;
+    height: 15px; 
+  }
+  .separator {
+    margin: 0 5px 0 10px;
+  }  
+  .hryvnia_icon {
+    width: 11px;
+    height: 11px;
+    margin: 0px 7px 0 3px; 
+  }
+  .summery_price {
+    padding: 0;
+  }
+}  
+
+@media (max-width: 450px) {
+  .cart_link {
+    display: flex; 
+    flex-direction: row; 
+    color: rgb(255, 1, 1);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    text-decoration: none;
+  }   
+} 

@@ -1,0 +1,14 @@
+.map_small {
+    display: none
+}
+
+@media (max-width: 768px) {
+    .map_large {
+        display: none;
+    }
+    .map_small {
+        display: inline;
+    }
+}
+
+

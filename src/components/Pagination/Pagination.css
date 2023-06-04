@@ -1,0 +1,22 @@
+.pagination_items {
+    display: flex;
+    justify-content: center;
+}
+
+
+.pagination_items>li {
+    list-style: none; 
+    margin-right: 10px; 
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.active_page {
+    color:red;
+    background-color: rgb(185, 185, 185);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    margin-bottom: 32px; 
+}
+

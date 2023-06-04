@@ -1,0 +1,21 @@
+.root {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
+    flex-direction: column;
+    color:rgb(253, 8, 8); 
+    margin-top: 170px;
+    text-align: center;
+    
+    span {
+        font-size: 64px;
+    }
+
+    .to_main_page {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.0rem;
+        cursor: pointer;
+    }
+}

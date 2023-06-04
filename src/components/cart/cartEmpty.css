@@ -1,0 +1,26 @@
+.cart_empty {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
+    flex-direction: column;
+    color:rgb(253, 8, 8); 
+    margin-top: 170px;
+}
+
+.cart_empty_text {
+    text-transform: uppercase;
+    font-size: 2.0rem;
+    margin-bottom: 0;
+}
+
+.cart_empty_icon{
+    font-size: 2.0rem;
+}
+
+.to_main_page {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
